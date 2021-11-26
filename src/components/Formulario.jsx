@@ -119,7 +119,8 @@ const Formulario = ({crearCita}) => {
                 name="sintomas"
                 className='u-full-widht'
                 onChange={handleChange}
-                value = {sintomas}>
+                value = {sintomas}
+                resize='none'>
                 </textarea>
 
                 <button type='submit'
